@@ -7,7 +7,8 @@ export const App = () => {
     <div>
       
       <PageTitle text="24th Core World Coalition Conference" />
-      <EventBoard events = { upcomingEvents } />
+      <EventBoard events={upcomingEvents} />
+      
     </div>
   );
 };
